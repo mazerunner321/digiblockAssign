@@ -47,12 +47,12 @@ const Display = () => {
         </form>
       </div>
 
-      <div class="container info_container">
-        <h1 class="display-4 text-center">{info.lgnm}</h1>
-        <h3 class="mt-3 mb-3">
-          <span class="text-muted">{info.stj}</span>, {info.stjCd}
+      <div className="container info_container">
+        <h1 className="display-4 text-center">{info.lgnm}</h1>
+        <h3 className="mt-3 mb-3">
+          <span className="text-muted">{info.stj}</span> {info.stjCd}
         </h3>
-        <p class="lead">{info.tradeNam}</p>
+        <p className="lead">{info.tradeNam}</p>
         <p>{info.ctj}</p>
       </div>
     </div>
